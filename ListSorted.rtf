@@ -1,0 +1,40 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red36\green38\blue41;\red235\green236\blue237;\red0\green0\blue120;
+\red234\green234\blue234;\red26\green27\blue29;\red37\green127\blue159;\red107\green0\blue1;\red109\green109\blue109;
+}
+{\*\expandedcolortbl;;\cssrgb\c18824\c20000\c21176;\cssrgb\c93725\c94118\c94510;\cssrgb\c0\c0\c54510;
+\cssrgb\c93333\c93333\c93333;\cssrgb\c13333\c14118\c14902;\cssrgb\c16863\c56863\c68627;\cssrgb\c50196\c0\c0;\cssrgb\c50196\c50196\c50196;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww12600\viewh7280\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
+  \cf4 \cb5 import\cf6 \cb5  java.util.*;\
+\pard\pardeftab720\partightenfactor0
+\cf4 \cb5 public\cf6 \cb5  \cf4 \cb5 class\cf6 \cb5  \cf7 \cb5 ArrayListOfInteger\cf6 \cb5   \{\
+\
+	\cf4 \cb5 public\cf6 \cb5  \cf4 \cb5 static\cf6 \cb5  \cf4 \cb5 void\cf6 \cb5  main(\cf7 \cb5 String\cf6 \cb5  args[])\{\
+	   \cf7 \cb5 ArrayList\cf6 \cb5 <\cf7 \cb5 Integer\cf6 \cb5 > arraylist = \cf4 \cb5 new\cf6 \cb5  \cf7 \cb5 ArrayList\cf6 \cb5 <\cf7 \cb5 Integer\cf6 \cb5 >();\
+	   arraylist.add(\cf8 11\cf6 );\
+	   arraylist.add(\cf8 2\cf6 );\
+	   arraylist.add(\cf8 7\cf6 );\
+	   arraylist.add(\cf8 3\cf6 );\
+	   \cf9 \cb5 /* ArrayList before the sorting*/\cf6 \cb5 \
+	   \cf7 \cb5 System\cf6 \cb5 .\cf4 \cb5 out\cf6 \cb5 .println(\cf8 "Before Sorting:"\cf6 );\
+	   \cf4 \cb5 for\cf6 \cb5 (\cf4 \cb5 int\cf6 \cb5  counter: arraylist)\{\
+			\cf7 \cb5 System\cf6 \cb5 .\cf4 \cb5 out\cf6 \cb5 .println(counter);\
+		\}\
+\
+\
+	   \cf7 \cb5 Collections\cf6 \cb5 .sort(arraylist);\
+\
+	\
+	   \cf7 \cb5 System\cf6 \cb5 .\cf4 \cb5 out\cf6 \cb5 .println(\cf8 "After Sorting:"\cf6 );\
+	   \cf4 \cb5 for\cf6 \cb5 (\cf4 \cb5 int\cf6 \cb5  counter: arraylist)\{\
+			\cf7 \cb5 System\cf6 \cb5 .\cf4 \cb5 out\cf6 \cb5 .println(counter);\
+		\}\
+	\}\
+\}\
+}
